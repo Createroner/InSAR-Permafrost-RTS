@@ -15,8 +15,9 @@ To install the necessary dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
-## Installation
+## Usage
 
 To get started with this software, follow these simple steps:
 
@@ -34,3 +35,4 @@ To get started with this software, follow these simple steps:
        "path_to_data.tif",
        "path_to_output.tif"
    )
+   ```
