@@ -15,6 +15,7 @@ To install the necessary dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
+```bash
 
 ## Usage
 Here is a simple example on how to use the scripts to process InSAR images:
@@ -28,3 +29,4 @@ calculate_statistics_and_remove_trend(
     "path_to_data.tif",
     "path_to_output.tif"
 )
+```bash
