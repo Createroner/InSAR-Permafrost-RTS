@@ -15,3 +15,16 @@ To install the necessary dependencies, run the following command:
 
 ```bash
 pip install -r requirements.txt
+
+## Usage
+Here is a simple example on how to use the scripts to process InSAR images:
+```bash
+from osgeo import gdal
+import numpy as np
+
+# Example function call
+calculate_statistics_and_remove_trend(
+    "path_to_mask.tif",
+    "path_to_data.tif",
+    "path_to_output.tif"
+)
