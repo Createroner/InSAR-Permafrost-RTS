@@ -8,7 +8,13 @@ This repository contains the Python implementation of the methodologies describe
 - **Atmospheric Phase Identification**: Automatically identifies atmospheric phases in InSAR data using data-driven techniques.
 - **Phase Removal**: Implements algorithms to remove the identified atmospheric phase effects, leading to clearer and more accurate InSAR images.
 - **Permafrost Monitoring**: Specifically tailored for monitoring permafrost thaw subsidence, crucial for understanding climate change impacts.
+## Algorithm Description
 
+The following diagram illustrates the algorithm used in our project to identify and remove atmospheric phases for enhanced InSAR monitoring. This process is critical for accurately analyzing permafrost thaw subsidence and other related phenomena.
+
+![Algorithm Diagram](Algorithm.png)
+
+The diagram outlines the sequential steps taken by the software to process the InSAR data, highlighting the data-driven techniques applied to achieve high precision and reliability in the results.
 ## Installation
 
 To install the necessary dependencies, run the following command:
